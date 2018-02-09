@@ -1,1 +1,1 @@
-Sitemap: sitemap.xml
+sitemap: https://xn--t0h.ws/sitemap.xml

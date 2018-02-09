@@ -1,0 +1,26 @@
+
+AddDefaultCharSet utf-8
+Options -Indexes -MultiViews
+
+<IfModule mod_headers.c>
+ExpiresActive On
+Header add Access-Control-Allow-Origin "*"
+Header set Strict-Transport-Security "max-age=31415926; includeSubDomains; preload" env=HTTPS
+Header set X-UA-Compatible "IE=Edge"
+# Expires after 1 month
+<filesMatch ".(gif|png|jpg|jpeg|ico|pdf|txt)$">
+Header set Cache-Control "max-age=2592000"
+</filesMatch>
+# Expires after 1 day
+<filesMatch ".(atom|css|html|js|php|rdf|rss|svg|xml)$">
+Header set Cache-Control "max-age=86400"
+</filesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{HTTPS} !=on
+#RewriteCond %{REMOTE_ADDR} !(::1)$
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
