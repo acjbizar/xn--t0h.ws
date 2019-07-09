@@ -1,1 +1,5 @@
-sitemap: https://xn--t0h.ws/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--t0h.ws/sitemap.xml

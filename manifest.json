@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "20190709",
+    "name": "■",
+    "default_locale": "en",
+    "description": "Website + internationalized domain name, 2012.",
+    "author": "Alexander Christiaan Jacob",
+    "theme_color": "white",
+    "homepage_url": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./apple-touch-icon-precomposed.png"
+        }
+    ],
+    "display": "fullscreen"
+}

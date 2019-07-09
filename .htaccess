@@ -3,7 +3,7 @@ AddDefaultCharSet utf-8
 Options -Indexes -MultiViews
 
 <IfModule mod_headers.c>
-ExpiresActive On
+#ExpiresActive On
 Header add Access-Control-Allow-Origin "*"
 Header set Strict-Transport-Security "max-age=31415926; includeSubDomains; preload" env=HTTPS
 Header set X-UA-Compatible "IE=Edge"
