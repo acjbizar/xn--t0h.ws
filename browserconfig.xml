@@ -5,7 +5,7 @@
             <square70x70logo src="https://xn--t0h.ws/apple-touch-icon-precomposed.png"/>
             <square150x150logo src="https://xn--t0h.ws/apple-touch-icon-precomposed.png"/>
             <square310x310logo src="https://xn--t0h.ws/apple-touch-icon-precomposed.png"/>
-            <TileColor>white</TileColor>
+            <TileColor>#ffffff</TileColor>
         </tile>
     </msapplication>
 </browserconfig>

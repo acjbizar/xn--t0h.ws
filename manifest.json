@@ -5,12 +5,12 @@
     "default_locale": "en",
     "description": "Website + internationalized domain name, 2012.",
     "author": "Alexander Christiaan Jacob",
-    "theme_color": "white",
-    "homepage_url": "./",
-    "start_url": "./",
+    "theme_color": "#ffffff",
+    "homepage_url": "https://xn--t0h.ws/",
+    "start_url": "https://xn--t0h.ws/",
     "icons": [
         {
-            "src": "./apple-touch-icon-precomposed.png"
+            "src": "https://xn--t0h.ws/apple-touch-icon-precomposed.png"
         }
     ],
     "display": "fullscreen"
