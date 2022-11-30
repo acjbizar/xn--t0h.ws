@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "lang": "en",
+    "dir": "ltr",
+    "name": "■",
+    "display": "fullscreen",
+    "icons": [{
+        "src": "https://xn--t0h.ws/apple-touch-icon-precomposed.png"
+    }],
+    "scope": "/",
+    "id": "https://xn--t0h.ws/",
+    "theme_color": "white"
+}
